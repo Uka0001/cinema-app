@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/CinemaHallResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/UserResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/MovieSessionResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/ShoppingCartResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/MovieResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/response/OrderResponseDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/request/MovieRequestDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/request/CinemaHallRequestDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/request/MovieSessionRequestDto.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dto/request/UserRequestDto.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.lib.FieldsValueMatch&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.lib.FieldsValueMatch&apos; import. Should be before &apos;javax.validation.constraints.Size&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.lib.ValidEmail&apos; import. Should be before &apos;javax.validation.constraints.Size&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/util/DateTimePatternUtil.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/SecurityConfig.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/SecurityInitializer.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/DataInitializer.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.RoleService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.RoleService&apos; import. Should be before &apos;javax.annotation.PostConstruct&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.UserService&apos; import. Should be before &apos;javax.annotation.PostConstruct&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Role&apos; import. Should be before &apos;javax.annotation.PostConstruct&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;javax.annotation.PostConstruct&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/WebAppInitializer.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/WebConfig.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/config/AppConfig.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/CinemaHallDaoImpl.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/MovieSessionDaoImpl.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.dao.AbstractDao&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.AbstractDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.MovieSessionDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.exception.DataProcessingException&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/OrderDaoImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.dao.AbstractDao&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.AbstractDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.OrderDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.exception.DataProcessingException&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Order&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/RoleDaoImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.dao.AbstractDao&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.AbstractDao&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.RoleDao&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.exception.DataProcessingException&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Role&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/TicketDaoImpl.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/MovieDaoImpl.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/ShoppingCartDaoImpl.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/impl/UserDaoImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.dao.AbstractDao&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.AbstractDao&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.UserDao&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.exception.DataProcessingException&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/MovieDao.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.Movie&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Movie&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/UserDao.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.User&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/RoleDao.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.Role&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Role&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/MovieSessionDao.java">
+<error line="7" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.MovieSession&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/ShoppingCartDao.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/OrderDao.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.Order&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Order&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/AbstractDao.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.exception.DataProcessingException&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.exception.DataProcessingException&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/CinemaHallDao.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.model.CinemaHall&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.CinemaHall&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/dao/TicketDao.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/AuthenticationController.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.request.UserRequestDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.UserResponseDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.AuthenticationService&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.ResponseDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/OrderController.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.OrderResponseDto&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Order&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.ShoppingCart&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.OrderService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.ShoppingCartService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.UserService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.ResponseDtoMapper&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/MovieController.java">
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.request.MovieRequestDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.MovieResponseDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Movie&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.MovieService&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.RequestDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.ResponseDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/CinemaHallController.java">
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.request.CinemaHallRequestDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.CinemaHallResponseDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.CinemaHall&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.CinemaHallService&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.RequestDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.ResponseDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/ShoppingCartController.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/CustomGlobalExceptionHandler.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/IndexController.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/MovieSessionController.java">
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.request.MovieSessionRequestDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.MovieSessionResponseDto&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.MovieSessionService&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.RequestDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.mapper.ResponseDtoMapper&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.util.DateTimePatternUtil&apos; import. Should be before &apos;javax.validation.Valid&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/controller/UserController.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/Order.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/MovieSession.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/User.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/ShoppingCart.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/Ticket.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/Role.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/CinemaHall.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/model/Movie.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/lib/FieldsValueMatch.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/lib/FieldsValueMatchValidator.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/lib/EmailValidator.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/lib/ValidEmail.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/OrderServiceImpl.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.OrderService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.OrderService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.ShoppingCartService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.OrderDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Order&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.ShoppingCart&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/RoleServiceImpl.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.RoleDao&apos; import. Should be before &apos;cinema.project.spring.service.RoleService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Role&apos; import. Should be before &apos;cinema.project.spring.service.RoleService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/MovieServiceImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.MovieService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.MovieService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.MovieDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Movie&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/UserServiceImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.UserService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.UserService&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.UserDao&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/CinemaHallServiceImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.CinemaHallService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.CinemaHallService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.CinemaHallDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.CinemaHall&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/AuthenticationServiceImpl.java">
+<error line="5" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.AuthenticationService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.AuthenticationService&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.RoleService&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.ShoppingCartService&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.UserService&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Role&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Set&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/ShoppingCartServiceImpl.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.ShoppingCartDao&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.TicketDao&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.ShoppingCart&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Ticket&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;cinema.project.spring.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/CustomUserDetailsService.java">
+<error line="7" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.UserService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.UserService&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/impl/MovieSessionServiceImpl.java">
+<error line="6" severity="error" message="Extra separation in import group before &apos;cinema.project.spring.service.MovieSessionService&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.service.MovieSessionService&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dao.MovieSessionDao&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/UserService.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/ShoppingCartService.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/MovieService.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Movie&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/RequestDtoMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/MovieSessionMapper.java">
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.request.MovieSessionRequestDto&apos; import. Should be before &apos;cinema.project.spring.service.MovieService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.dto.response.MovieSessionResponseDto&apos; import. Should be before &apos;cinema.project.spring.service.MovieService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;cinema.project.spring.service.MovieService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/MovieMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/OrderMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/CinemaHallMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/ResponseDtoMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/UserMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/mapper/ShoppingCartMapper.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/RoleService.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/OrderService.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.Order&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.ShoppingCart&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.User&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/MovieSessionService.java">
+<error line="5" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.MovieSession&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/AuthenticationService.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/service/CinemaHallService.java">
+<error line="4" severity="error" message="Wrong lexicographical order for &apos;cinema.project.spring.model.CinemaHall&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/java/cinema/project/spring/exception/DataProcessingException.java">
+</file>
+<file name="/Users/oleksii/Documents/GitHub/cinema-app/src/main/resources/db.properties">
+</file>
+</checkstyle>
