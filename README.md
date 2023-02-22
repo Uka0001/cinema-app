@@ -18,4 +18,4 @@ Java 17, Spring Web MVC, Spring Security, Hibernate, MySQL, Tomacat@9, Maven
 5. Run "mvn clean package" command in your terminal.
 6. If everything fine - start Tomcat and try app.
 
-Good luck. With :hearts: love from :ukraine: Ukraine! :)
+Good luck. With :hearts: love from :ukraine: Ukraine! :smiley:
