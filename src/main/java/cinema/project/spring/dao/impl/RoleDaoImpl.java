@@ -1,11 +1,10 @@
 package cinema.project.spring.dao.impl;
 
-import java.util.Optional;
-
 import cinema.project.spring.dao.AbstractDao;
 import cinema.project.spring.dao.RoleDao;
 import cinema.project.spring.exception.DataProcessingException;
 import cinema.project.spring.model.Role;
+import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;

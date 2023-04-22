@@ -1,10 +1,9 @@
 package cinema.project.spring.dao;
 
+import cinema.project.spring.model.MovieSession;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-
-import cinema.project.spring.model.MovieSession;
 
 public interface MovieSessionDao {
     MovieSession add(MovieSession movieSession);

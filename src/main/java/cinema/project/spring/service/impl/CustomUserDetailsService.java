@@ -2,10 +2,9 @@ package cinema.project.spring.service.impl;
 
 import static org.springframework.security.core.userdetails.User.withUsername;
 
-import java.util.Optional;
-
-import cinema.project.spring.service.UserService;
 import cinema.project.spring.model.User;
+import cinema.project.spring.service.UserService;
+import java.util.Optional;
 import org.springframework.security.core.userdetails.User.UserBuilder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

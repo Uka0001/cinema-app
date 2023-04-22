@@ -1,10 +1,9 @@
 package cinema.project.spring.service.impl;
 
-import java.util.List;
-
-import cinema.project.spring.service.CinemaHallService;
 import cinema.project.spring.dao.CinemaHallDao;
 import cinema.project.spring.model.CinemaHall;
+import cinema.project.spring.service.CinemaHallService;
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 @Service

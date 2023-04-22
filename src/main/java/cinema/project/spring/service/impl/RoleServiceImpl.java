@@ -1,8 +1,8 @@
 package cinema.project.spring.service.impl;
 
-import cinema.project.spring.service.RoleService;
 import cinema.project.spring.dao.RoleDao;
 import cinema.project.spring.model.Role;
+import cinema.project.spring.service.RoleService;
 import org.springframework.stereotype.Service;
 
 @Service

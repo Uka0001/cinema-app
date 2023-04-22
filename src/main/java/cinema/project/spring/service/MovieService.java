@@ -1,7 +1,7 @@
 package cinema.project.spring.service;
 
-import java.util.List;
 import cinema.project.spring.model.Movie;
+import java.util.List;
 
 public interface MovieService {
     Movie add(Movie movie);

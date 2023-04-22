@@ -1,6 +1,5 @@
 package cinema.project.spring.controller;
 
-import java.util.List;
 import cinema.project.spring.dto.response.OrderResponseDto;
 import cinema.project.spring.model.Order;
 import cinema.project.spring.model.ShoppingCart;
@@ -9,6 +8,7 @@ import cinema.project.spring.service.OrderService;
 import cinema.project.spring.service.ShoppingCartService;
 import cinema.project.spring.service.UserService;
 import cinema.project.spring.service.mapper.ResponseDtoMapper;
+import java.util.List;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

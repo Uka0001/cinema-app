@@ -1,9 +1,8 @@
 package cinema.project.spring.dao;
 
+import cinema.project.spring.exception.DataProcessingException;
 import java.util.List;
 import java.util.Optional;
-
-import cinema.project.spring.exception.DataProcessingException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

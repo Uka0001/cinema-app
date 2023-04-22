@@ -1,11 +1,10 @@
 package cinema.project.spring.service.impl;
 
-import java.time.LocalDate;
-import java.util.List;
-
-import cinema.project.spring.service.MovieSessionService;
 import cinema.project.spring.dao.MovieSessionDao;
 import cinema.project.spring.model.MovieSession;
+import cinema.project.spring.service.MovieSessionService;
+import java.time.LocalDate;
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 @Service

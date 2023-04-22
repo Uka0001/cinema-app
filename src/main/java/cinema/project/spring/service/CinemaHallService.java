@@ -1,7 +1,7 @@
 package cinema.project.spring.service;
 
-import java.util.List;
 import cinema.project.spring.model.CinemaHall;
+import java.util.List;
 
 public interface CinemaHallService {
     CinemaHall add(CinemaHall cinemaHall);

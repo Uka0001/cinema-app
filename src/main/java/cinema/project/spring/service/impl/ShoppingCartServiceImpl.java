@@ -1,12 +1,12 @@
 package cinema.project.spring.service.impl;
 
-import cinema.project.spring.service.ShoppingCartService;
 import cinema.project.spring.dao.ShoppingCartDao;
 import cinema.project.spring.dao.TicketDao;
 import cinema.project.spring.model.MovieSession;
 import cinema.project.spring.model.ShoppingCart;
 import cinema.project.spring.model.Ticket;
 import cinema.project.spring.model.User;
+import cinema.project.spring.service.ShoppingCartService;
 import org.springframework.stereotype.Service;
 
 @Service

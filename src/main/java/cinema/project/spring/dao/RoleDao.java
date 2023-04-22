@@ -1,8 +1,7 @@
 package cinema.project.spring.dao;
 
-import java.util.Optional;
-
 import cinema.project.spring.model.Role;
+import java.util.Optional;
 
 public interface RoleDao {
     Role add(Role role);

@@ -1,8 +1,7 @@
 package cinema.project.spring.dao;
 
-import java.util.Optional;
-
 import cinema.project.spring.model.User;
+import java.util.Optional;
 
 public interface UserDao {
     User add(User user);

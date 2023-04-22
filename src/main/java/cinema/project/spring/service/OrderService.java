@@ -1,9 +1,9 @@
 package cinema.project.spring.service;
 
-import java.util.List;
 import cinema.project.spring.model.Order;
 import cinema.project.spring.model.ShoppingCart;
 import cinema.project.spring.model.User;
+import java.util.List;
 
 public interface OrderService {
     Order completeOrder(ShoppingCart shoppingCart);
